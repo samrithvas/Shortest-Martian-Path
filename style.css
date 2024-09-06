@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins&display=swap');
+
+#navvhead{
+    font-size: 18px;
+    color:#451804;
+}
+.style_drop
+{
+  font-family: 'Poppins', sans-serif;
+}
+.style_nav_buttons
+{
+    font-family: 'Poppins', sans-serif;
+
+}
+.nav_main
+{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+}
+body {
+    margin: 20px;
+    background-image: url('https://images.unsplash.com/photo-1527826507412-72e447368aa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80&h=100%&w=auto');
+    
+}
+
+#canvas {
+    padding: 0;
+    margin: 0px;
+    margin-top: 30px;
+    margin-left: 50px;
+    display: block;
+    background-color: #F0E7E7;
+    opacity: 0.92;
+    
+}
+.start {
+    color: rgb(133, 101, 208);
+}
+
+.end {
+    color: rgb(255, 69, 0);
+}
+.panel {
+    position: fixed;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+     
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: default;
+}
+#instructions_panel {
+    top: 11%;
+    left: 83%;
+    width: 250px;
+}
+.header_title {
+    font-size: 120%;
+    font-weight: bold;
+    padding-bottom: 0px;
+
+    margin-top: 0px;
+}
+
+
+.panel {
+    position:absolute;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: default;
+}
+p{
+    font-size: 20px;
+    font-family: cursive;
+}
+
+body > h1 {
+    text-align: center;
+    font-family: Impact, fantasy;
+    color: #000000;
+    padding: 10px 0px;
+    font-size: 50px;
+}
+
+.info {
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+   
+    padding: 10px;
+}
+h2,h3,h4,#distance,#time,#searched {
+    display: inline;
+    font-size: 20px;
+}
+#distance {
+    padding-right: 10px;
+}
+#time {
+    padding-right: 10px;
+}
+#searched {
+    padding-right: 10px;
+}
+#navbarDropdown{
+    color:#451804;
+}
+#instruc{
+    margin-right: 10px;
+    color:#451804;
+}
+#dropdownMenuLink{
+    background-color: #451804;
+}
+#resett{
+    color:white;
+    margin-right: 5px;
+    background-color: #451804;
+    border-radius: 5px;
+}
+#resett:hover
+{
+    background-color: #522a18c4;
+}
+.mars{
+    border-radius: 5px;
+}
+.button {
+    
+     
+    text-decoration: none;
+    
+    
+  }
+  
+  .button:hover{
+   
+    cursor: pointer;
+   
+}
+#instruc:hover{
+    color:white;
+    background-color: #451804;
+}
+  .buttons {
+    text-align: center;
+    padding-top: 15px;
+}
+
+::selection {
+    background: #aacfcf;
+}
+
