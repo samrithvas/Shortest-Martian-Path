@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: sam
+ labels:
+  app: samm
+spec:
+ containers:
+ - name: samrith
+   image: moby/buildkit:buildx-stable-1
+   ports:
+   - containerPort: 8080
