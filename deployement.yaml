@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+ name: short-deployement
+ labels:
+  app: short
+  type: dsa-devops-project
+spec:
+ replicas: 3
+ selector:
+  matchLabels:
+   app: sam
+ template:
+  metadata:
+    labels:
+     app: sam
+  spec:
+    containers:
+     - name: samrith
+       image: samrithvas1010/sam:v1
