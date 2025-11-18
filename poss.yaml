@@ -7,6 +7,6 @@ metadata:
 spec:
  containers:
  - name: samrith
-   image: moby/buildkit:buildx-stable-1
+   image: samrithvas1010/sam
    ports:
    - containerPort: 8080
