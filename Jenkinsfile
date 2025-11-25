@@ -1,8 +1,5 @@
 pipeline {
     agent any
-options {
-        runAsUser('SYSTEM')
-    }
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub')
         IMAGE_NAME = "samrithvas1010/shortest-martian-path"
