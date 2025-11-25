@@ -5,6 +5,7 @@ pipeline {
         IMAGE_NAME = "samrithvas1010/shortest-martian-path"
         BRANCH_NAME = "main"
     }
+    
 
     stages {
         stage('Checkout') {
