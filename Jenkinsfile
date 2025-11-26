@@ -6,14 +6,14 @@ pipeline {
         BRANCH_NAME = "main"
     }
 
-
-    
-
     stages {
         stage('Checkout') {
             steps {
-                git branch: BRANCH_NAME, url: 'https://github.com/samrithvas/Shortest-Martian-Path'
-                credentialsId: 'github-token'
+                git(
+                    branch: BRANCH_NAME,
+                    url: 'https://github.com/samrithvas/Shortest-Martian-Path.git',
+                    credentialsId: 'github-token'
+                )
             }
         }
 
@@ -41,6 +41,7 @@ pipeline {
             }
         }
     }
+
     post {
         always {
             sh 'docker logout'
