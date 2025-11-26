@@ -13,6 +13,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: BRANCH_NAME, url: 'https://github.com/samrithvas/Shortest-Martian-Path'
+                credentialsId: 'github-token'
             }
         }
 
